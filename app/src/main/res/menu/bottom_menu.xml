@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fr_quran"
+        android:icon="@drawable/quran"
+        android:title="Quran"
+        />
+
+    <item
+        android:id="@+id/fr_doa"
+        android:icon="@drawable/doa"
+        android:title="Doa"
+        />
+
+</menu>

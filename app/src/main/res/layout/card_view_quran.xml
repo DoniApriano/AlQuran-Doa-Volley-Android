@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview"
+    >
+
+    <LinearLayout
+        android:id="@+id/btn_surah"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_surah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            android:text="Al Fatihah"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/inclusivesansitalic"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/tv_number_surah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            android:text="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/inclusivesansitalic"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
