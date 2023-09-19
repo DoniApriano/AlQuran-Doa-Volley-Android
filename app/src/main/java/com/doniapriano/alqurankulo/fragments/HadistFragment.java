@@ -2,8 +2,6 @@ package com.doniapriano.alqurankulo.fragments;
 
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -14,10 +12,10 @@ import com.doniapriano.alqurankulo.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link DoaFragment#newInstance} factory method to
+ * Use the {@link HadistFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class DoaFragment extends Fragment {
+public class HadistFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -28,7 +26,7 @@ public class DoaFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public DoaFragment() {
+    public HadistFragment() {
         // Required empty public constructor
     }
 
@@ -38,11 +36,11 @@ public class DoaFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment DoaFragment.
+     * @return A new instance of fragment HadistFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static DoaFragment newInstance(String param1, String param2) {
-        DoaFragment fragment = new DoaFragment();
+    public static HadistFragment newInstance(String param1, String param2) {
+        HadistFragment fragment = new HadistFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -63,12 +61,6 @@ public class DoaFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_doa, container, false);
-    }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
+        return inflater.inflate(R.layout.fragment_hadist, container, false);
     }
 }

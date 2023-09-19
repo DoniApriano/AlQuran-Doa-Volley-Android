@@ -13,7 +13,6 @@
         android:layout_gravity="end"
         >
 
-
         <TextView
             android:id="@+id/tv_no_ayat"
             android:layout_width="match_parent"
@@ -34,9 +33,7 @@
             android:textColor="@color/black"
             />
 
-
     </LinearLayout>
-
 
     <TextView
         android:id="@+id/tv_arti"
